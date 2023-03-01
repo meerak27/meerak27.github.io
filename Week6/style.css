@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+
+html{
+	/* Set height of the html page to 100% of the browser height */
+	height: 100%;
+	/* Hide horizontal scroll */
+	overflow-x: hidden;
+	font-family: 'Eater', cursive;
+
+}
+
+body{
+	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	height: 100%;
+	margin: 0px;
+}
+/* 
+Navigation Bar 
+*/
+#nav{
+	/* Fix navigation bar at the top middle of the web page */
+    position: fixed;
+    /* calc() CSS function calculates numbers of different units */
+    left: calc(50% - 50px);
+    top: 20px;
+    /* Display nav bar on top of everything else */
+    z-index: 1;
+}
+
+.nav-btn{
+	width: 20px;
+    height: 20px;
+    /* Make square div into a circle */
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    /* transition changes in background-color */
+    transition: background-color 0.5s;
+}
+
+/* When a nav-btn is hovered on, set background-color to black */
+.nav-btn:hover{
+	background-color: black;
+}
+
+/* 
+Parallax: Forest and Bears sections;
+*/
+#forest, #bears{
+	/* Set height of div to 100% */
+	height: 100%;
+	/* The bottom three background CSS settings create parallax effect */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#forest{
+	/* Set background image of forest section using url() function */
+	background-image: url('img/boyinforest\ \(1\).jpeg');
+}
+
+#bears{
+	/* Set background image of bear section using url() function */
+	background-image: url('img/boywbears\ \(2\).jpeg');
+}
+
+/* 
+Tree div inside Forest section
+*/
+#tree-div{
+    position: relative;
+    width: 150px;
+    text-align: center;
+    top: calc(100% - 300px);
+    left: calc(50% - 75px);
+}
+
+#tree{
+	width: 90px;
+	margin-top: 25px;
+}
+
+#tree-text{
+	color: white;
+	font-size: small;
+	text-align: center;
+	font-weight: 400;
+
+}
+
+/* 
+Animal div inside Bears section
+*/
+#animal-div{
+    position: relative;
+    width: 180px;
+    text-align: center;
+    left: calc(50% - 90px);
+}
+
+#animal-text{
+	color: white;
+	font-size: small;
+	text-align: center;
+	font-weight: 400;
+
+}
+
+#animal{
+    width: 75px;
+    display: block;
+    margin: auto;
+    transform: rotate(-10deg);
+}
+
+/* 
+Text sections after Bear and Forest sections
+*/
+.text-section{
+	/* Center text in the middle of browser using flexbox */
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text{
+	width: 45%;
+	font-size: x-large;
+	text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Big Brown Bear</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation bar (top 4 circles that jump down to the page) -->
+	<div id="nav">
+		<!-- link to divs on the same page using their id names -->
+		<a href="#forest"><div class="nav-btn" id="first-page"></div></a>
+		<a href="#first-text"><div class="nav-btn" id="second-page"></div></a>
+		<a href="#bears"><div class="nav-btn" id="third-page"></div></a>
+		<a href="#second-text"><div class="nav-btn" id="fourth-page"></div></a>
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. Forest
+	2. Text section
+	3. Bears
+	4. Text section
+	 -->
+	<div id="forest">
+		<!-- Content to display inside the forest div -->
+		<div id="tree-div">
+			<span id="tree-text">A young boy is walking alone in a forest, enjoying the tranquility and beauty of nature.</span>
+			<img id="tree" src="img/tree.png">
+		</div>
+	</div>
+	<div id="first-text" class="text-section">
+		<p class="text">Suddenly, the boy stumbles upon a few bears, who growl at him looking ready to attack.</p>
+	</div>
+	<div id="bears">
+		<!-- Content to display inside the bear div -->
+		<div id="animal-div">
+			<img id="animal" src="img/animal.png">
+			<span id="animal-text">Ready to attack you!</span>
+		</div>
+	</div>
+	<div id="second-text" class="text-section">
+		<p class="text">Thankfully, he recalled his lessons about bear encounters and stood still, slowly backing away until he thought he reached safety. Just as he turned to run away, one of the bears abruptly stepped forward. Did he manage to do a safe getaway? We will never learn the boy's fate.
+		</p>
+	</div>
+</body>
+</html>
