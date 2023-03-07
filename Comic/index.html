@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Poisoned Apple</title>
+  <link rel="shortcut icon" type="image/png" href="images/apple_f.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- background music with a mute and unmute button -->
+  <button id="mute-btn" onclick="toggleMute()">Mute</button>
+  <audio id="bg-music">
+    <source src="background.mp3">
+  </audio>
+  <script>
+    window.addEventListener('click', () => {
+      document.getElementById("bg-music").play();
+    }); </script>
+
+  <!-- horizontal scroll -->
+  <div class="scroll"></div>
+
+  <!-- div that includes all web pages of the comic with p tags for the text -->
+  <div class="container">
+    <div class="page page_1" id="home">
+      <h2 data-aos="fade-left" data-aos-delay="5000" data-aos-duration="2000" data-aos-easing="ease-in-out">The Poisoned
+        Apple</h2>
+      <p data-aos="fade-right" data-aos-delay="4000" data-aos-duration="2000" data-aos-easing="ease-in-out">CLICK AND
+        SCROLL TO START &nbsp > ></p>
+    </div>
+    <div class="page page_2">
+      <p data-aos="fade-left" data-aos-delay="1000" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">Once
+        upon a time, there was a young boy who loved exploring the forest. One day, while wandering through the
+        woods, he spotted a beautiful, juicy-looking apple hanging from a tree. The apple looked so delicious that he
+        couldn't resist reaching up to grab it.</p>
+    </div>
+    <div class="page page_3">
+      <p data-aos="fade-right" data-aos-delay="2800" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic"> As he
+        was about to take a bite, a wise old owl sitting on a nearby branch warned him, "That apple may look
+        delicious, but it's actually poisoned.</p>
+    </div>
+    <div class="page page_4">
+      <p data-aos="fade-down-left" data-aos-delay="2800" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+        The boy hesitated for a moment, but his hunger got the best of him, and he decided to ignore the owl's warning.
+        He took a bite of the apple anyway.</p>
+    </div>
+    <div class="page page_5">
+      <p data-aos="fade-down-right" data-aos-delay="2800" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+        Immediately, he felt sick and dizzy, and regret flooded over him as he realized too late that the owl was
+        right. He fell to the ground, feeling the effects of the poison coursing through his body.</p>
+    </div>
+    <div class="page page_6">
+      <p zoom-in data-aos-delay="2800" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">The boy hung his
+        head in shame, knowing that he should have listened to the owl's warning. From that day
+        forward, he vowed to always consider the advice of others and think through his actions before making a
+        decision.</p>
+    </div>
+    <div class="page page_7">
+      <p data-aos="fade-left" data-aos-delay="2800" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">As he
+        sat there, feeling miserable, the wise old owl flew down and landed next to him. "Remember this, young
+        one," said the owl. "Sometimes things may seem appealing at first, but it's important to listen to warnings and
+        think before acting."</p>
+    </div>
+    <div class="page page_8">
+      <h2 data-aos="fade-down-left" data-aos-delay="2800" data-aos-duration="3000" data-aos-easing="ease-in-out-cubic">
+        As he trudged home, feeling ill and sorry for himself, the boy realized that he had learned an important
+        lesson that day. He had learned that sometimes the easy choice isn't always the best one, and that it's always
+        wise to consider the advice of others and think things through before making a decision.</h2>
+    </div>
+    <div class="page page_9">
+      <h2 data-aos="fade-left" data-aos-delay="5000" data-aos-duration="2000" data-aos-easing="ease-in-out">The End</h2>
+      <!-- button to return to the home page -->
+      <div class="button"><button class="button-style"><a style="text-decoration: none;" href="#home">Start
+            Over</a></button></div>
+      <div class="footer">Created by Meera, Fatema, Aiya, Aibar</div>
+    </div>
+  </div>
+
+  <script defer src="script.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+  </script>
+
+</body>
