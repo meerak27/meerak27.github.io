@@ -35,30 +35,35 @@ To achieve our goal, we had to scrap the entire website and start from scratch. 
 
 In this project we tried to create an immersive experience to our story. The webpage provides a user-friendly experience that allows users to read and enjoy the comic script at their own pace while incorporating various elements of UX to enhance the overall experience. For the web interactivity we decided to add background sound which can be controlled by using a button and scroll to the start button at the end of the comic to read it again. We also thought that adding a progress bar at the top of the page would give the user a sense of time orientation. I had some major challenges with the autoplay of the background sound because according to many browsers policy, autoplay is not allowed on a page load unless the user is able to control the play/pause and volume and speed. So we came up with this idea of clicking on the page when we first load the page. The below JavaScript reflects this logic:
 
-' //background music buttons interaction
+
+```
+// background music buttons interaction
 const bgMusic = document.getElementById('bg-music');
-const muteBtn = document.getElementById('mute-btn');'
-    
-     function toggleMute() {
-       if (bgMusic.muted) {
-         bgMusic.muted = false;
-         muteBtn.innerHTML = 'Mute';
-       } else {
-         bgMusic.muted = true;
-         muteBtn.innerHTML = 'Unmute';
-       }
-     }
+const muteBtn = document.getElementById('mute-btn');
 
+function toggleMute() {
+  if (bgMusic.muted) {
+    bgMusic.muted = false;
+    muteBtn.innerHTML = 'Mute';
+  } else {
+    bgMusic.muted = true;
+    muteBtn.innerHTML = 'Unmute';
+  }
+}'
 
- <!-- background music with a mute and unmute button -->
- <button id="mute-btn" onclick="toggleMute()">Mute</button>
- <audio id="bg-music">
-   <source src="background.mp3">
- </audio>
- <script>
-   window.addEventListener('click', () => {
-     document.getElementById("bg-music").play();
-   }); </script> '
+<!-- background music with a mute and unmute button -->
+'<button id="mute-btn" onclick="toggleMute()">Mute</button>
+<audio id="bg-music">
+  <source src="background.mp3">
+</audio>
+
+<script>
+  window.addEventListener('click', () => {
+    document.getElementById("bg-music").play();
+  });
+</script>
+```
+
 
 Scott McCloud, in his book "Understanding Comics," outlines several principles of comic art, which can also be applied to webcomics. Flow refers to the way the eye moves across the page, and how the reader is guided from panel to panel. In our webcomics, flow can be achieved through the use of horizontal scrolling and various interactive elements. We also tried to pay attention to the framing which refers to the way that panels are arranged on the page, and how they are used to focus the reader's attention. In webcomics, framing can be used to create a sense of depth or perspective, or to highlight important moments in the story. In our webcomic the main character is in a fixed position throughout the different panels so that we can feel the story from his unique perspective.
 
@@ -80,7 +85,7 @@ To generate the images we used the Discord AI bot Midjourney. The use of AI-gene
 Overall, while AI-generated images can be a useful tool, it's important to recognize their limitations and the amount of work required to make them usable. In many cases, it may be more efficient to work with human artists who can create a consistent and cohesive set of images tailored to your specific needs. If we were to do this on a more professional scale with a heavier load of images we would likely choose to create or own or hire an artist. This is because we all have very limited adobe photoshop and illustrator skills so it was so hard to creatively push ourselves to make the image look how we want to with our limited skills.
 
 
-## Reflection/Evaluation: This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version.
+## Reflection/Evaluation
 
 Our group successfully achieved all the goals we had set out to accomplish in our project, and we are proud of the final product we delivered. We began by creating a detailed wireframe that outlined all the features and functionalities we wanted to include in our website. Throughout the development process, we remained committed to our vision, and we worked tirelessly to ensure that every feature was implemented flawlessly.
 
