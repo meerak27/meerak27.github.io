@@ -19,7 +19,9 @@ Once we had all the audio clips, we used "Audacity" for editing. We applied func
 Despite the challenges and hard work, we were proud of our team's dedication and commitment to creating a high-quality product. We had learned valuable lessons in project management, audio recording, and editing, and we were excited to see our idea come to life as we moved towards the final stages of our project.
 
 ## Monologue and Soundscape Format
-Going with a monologue format and then a soundscape was what we thought would best depict our message. We wanted the website's viewers to know what people get up to in the area, then immerse themselves in the auditory experience of the soundscapes. The monologue ends with the same last sentence for the sake of continuity and to tie them all together.# Section 1: Performance Gym Soundscape
+Going with a monologue format and then a soundscape was what we thought would best depict our message. We wanted the website's viewers to know what people get up to in the area, then immerse themselves in the auditory experience of the soundscapes. The monologue ends with the same last sentence for the sake of continuity and to tie them all together.
+
+## Performance Gym Soundscape
 
 To do the performance gym soundscape, we had to take permission from the practicing team. We recorded their chants and communication, but as to not get in the way of the game, we did not record the ball audio. Instead, we took a basketball and independently created these sounds along with the shoes skidding on the basketball floor. Overall, finding this audio and adding in elements was a lengthy process as we couldn’t get it quite right. The specific issue faced with basketball was that it did not feel authentic enough. To combat this, we went back the next day and filmed the shoe skidding, as when you’re playing, it's the main thing you hear.
 
