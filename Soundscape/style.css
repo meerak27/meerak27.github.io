@@ -1,0 +1,131 @@
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham/Gotham-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: url('Gotham/Gotham-Light.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GothamLL';
+    src: url('Gotham/Gotham-LightItalic.otf') format('truetype');
+}
+  
+  
+  body{
+    padding: 0px;
+    font-family: 'Gotham', sans-serif;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #57068C;
+    color: #fff;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    font-family: 'GothamLight', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* logo */
+.logo {
+    top: 0;
+    left: 0;
+    float: left;
+    margin: 5px; 
+    background-color: #fff;
+}
+
+.logo img {
+    height: 35px;
+    width: 45px;
+}
+
+/* banner */
+.banner {
+    background-image: url("images/nyuad.jpeg");
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.banner::before {
+    content: '';
+    display: block;
+    position: static;
+    top: 55px;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+
+.banner .description {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 51%;
+   
+    letter-spacing: 3px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.banner .description h2 {
+    width: 1000px;
+    font-size: 3.5em;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.banner .description p {
+    font-size: 1.2em;
+    font-family: 'GothamLL', sans-serif;
+    padding-top: 5px;
+    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+
+  
+  

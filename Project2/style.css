@@ -1,3 +1,7 @@
+@font-face {
+	font-family: raleway_f;
+	src: url(../fonts/raleway-regular.woff2);
+}
 
 * {
     margin: 0;
