@@ -1,0 +1,49 @@
+.heading{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+
+.project_item_div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.projects_table{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.project_img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+.project_img:hover{
+    opacity: 100%;
+}
+
+.project_heading{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+}
+
+.a{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.a:hover{
+    opacity: 100%;
+}
