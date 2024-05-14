@@ -12,7 +12,7 @@ The laps is reverted back to 3.
 ## Points Completed
 All of the points were successfully completed and can be viewed both in the demo and game uploaded.
 ## Bonus Points completed
-Both 1 aand 2 were sucessfully impelmented as can be seen in the video. The bottom right corner had the replay and the car becomes dirtier as it crashes into other vehicles and surroundings.
+Both 1 and 2 were sucessfully impelmented as can be seen in the video. The bottom right corner had the replay and the car becomes dirtier as it crashes into other vehicles and surroundings.
 ## Controls
 Steering: Use the WASD keys to steer the car.
 Acceleration: Use the W key to accelerate.
